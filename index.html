@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./scr/img/logo-nasa.png" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>NASA - Astronomy Picture of the Day</title>
+  </head>
+  <body>
+    <header class="banner">
+      <h1 id="info">Astronomy Picture of the Day</h1>
+      <img id="logo" src="./scr/img/logo-nasa.png" alt="logo-da-nasa-preto" />
+    </header>
+    <main>
+      <div class="container">
+        <div class="elipse1">
+          <div class="elipse2">
+            <div class="elipse3">
+              <div class="elipse4">
+                <div class="elipse5">
+                  <div class="elipse6">
+                    <img
+                      class="pic"
+                      src="./scr/img/estrelas.png"
+                      alt="estelas-brancas"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chose">
+          <h1>
+            Discover the<br />
+            cosmos
+          </h1>
+          <label for="date"></label>
+          <input type="date" id="date" min="1995-06-16" /><br />
+          <button id="button">Light up the dark</button>
+        </div>
+      </div>
+      <section>
+        <h2 id="title"></h2>
+        <div id="retorno">
+          <img id="img" src="" />
+          <iframe
+            id="video"
+            src=""
+            autoplay
+            width="500px"
+            height="400px"
+          ></iframe>
+          <p id="explanation"></p>
+        </div>
+        <br />
+        <p id="copyright"></p>
+      </section>
+    </main>
+    <footer class="footer">
+      <h6>&copy; Copyright 2021, Helena Machado - Resilia Educação.</h6>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scr/script/apod.js"></script>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;900&display=swap");
+
+body {
+  background-color: #211b2c;
+}
+
+.banner {
+  width: auto;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+#info {
+  font-family: "Spartan", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.elipse1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #241d54,
+    #241d4b,
+    #241d42,
+    #231c39,
+    #211c30
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse2 {
+  width: 402px;
+  height: 402px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #261e73,
+    #28216d,
+    #2a2368,
+    #2c2662,
+    #2e285c
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #292256,
+    #272054,
+    #251e51,
+    #221c4f,
+    #201a4d
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse4 {
+  width: 219px;
+  height: 219px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #2b2377,
+    #2e2677,
+    #312a77,
+    #342d77,
+    #373077
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse5 {
+  width: 166px;
+  height: 166px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #2f2692,
+    #352d92,
+    #3b3392,
+    #413992,
+    #463f92
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse5 {
+  width: 119px;
+  height: 119px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #433bff,
+    #5758ff,
+    #6b71ff,
+    #8088ff,
+    #969fff
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  width: 800px;
+  height: 800px;
+}
+
+.chose {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #8088ff;
+  font-size: 70px;
+}
+
+#date {
+  background-color: #2e285c;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  border-color: #000000;
+  margin: 30px 0px 0px 0px;
+}
+
+#button {
+  background: linear-gradient(to bottom, #969fff 5%, #423bff 100%);
+  background-color: #969fff;
+  border-radius: 7px;
+  border-color: #969fff;
+  color: #ffffff;
+  font-family: "Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 30px;
+}
+
+#button:hover {
+  background: linear-gradient(to bottom, #423bff 5%, #969fff 100%);
+  background-color: #423bff;
+}
+
+#title {
+  font-family: "Spartan", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #8088ff;
+  font-size: 40px;
+  margin: 50px 0px 20px 50px;
+}
+
+#retorno {
+  display: flex;
+  justify-content: space-around;
+}
+
+#img {
+  width: 40vw;
+  height: auto;
+  margin: 10px 10px 10px 50px;
+  border-radius: 10px;
+}
+
+#explanation {
+  font-family: "Spartan", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 50px;
+}
+
+#copyright {
+  font-family: "Spartan", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0px 0px 0px 50px;
+}
+
+.footer {
+  width: auto;
+  height: 50px;
+  color: #8088ff;
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
