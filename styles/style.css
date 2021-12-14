@@ -204,6 +204,13 @@ h1 {
   border-radius: 10px;
 }
 
+#video {
+  width: 40vw;
+  height: auto;
+  margin: 10px 10px 10px 50px;
+  border-radius: 10px;
+}
+
 #explanation {
   font-family: "Spartan", sans-serif;
   font-weight: normal;

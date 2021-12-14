@@ -32,7 +32,7 @@ $("#button").click(function () {
     success: function (response) {
       $("#title").text(response.title);
 
-      if (response.midia_type === "video") {
+      if (response.media_type === "video") {
         $("#img").hide();
         $("#video").attr("src", response.url).show();
       } else {
